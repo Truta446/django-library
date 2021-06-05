@@ -1,0 +1,17 @@
+<form method="GET" class="form-inline" action="{% url 'search' %}">
+    <div class="input-group mt-5 mb-5 col-12">
+        <input
+            name="title"
+            type="text"
+            class="form-control"
+            placeholder="Search..."
+        />
+        <div class="input-group-append">
+            <div class="input-group-text">
+                <a href="#" class="text-dark" onclick="document.querySelector('form').submit()">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
